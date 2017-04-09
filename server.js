@@ -14,8 +14,7 @@ var router = express.Router();
 var port = process.env.API_PORT || 3001;
 
 //db config
-//mongoose.connect('mongodb://@ds157380.mlab.com:57380/mern34life');
-mongoose.connect('mongodb://db34life:Val221009@ds157380.mlab.com:57380/mern34life');
+mongoose.connect('mongodb://<dbusername>:<dbpassword>@ds157380.mlab.com:57380/mern34life');
 
 
 //configure the API to use bodyParser
@@ -90,7 +89,7 @@ router.route('/comments/:comment_id')
      res.json({ message: 'Comment has been deleted' })
    })
  });
- 
+
 //Use our router configuration when we call /api
 app.use('/api', router);
 
