@@ -1,9 +1,9 @@
-#mern34life
+# mern34life
 It's a personal project to test react.
 
-##technologies
+## Technologies
 
-##installation
+## Installation
 1. Git clone the project
 2. Register to [MLab](https://mlab.com/) (free account) and create a database.
 3. Add a DB user to the database just created (and note the dbUserName and the dbPassword).
