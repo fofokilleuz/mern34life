@@ -8,5 +8,5 @@ ReactDOM.render(
     url='http://localhost:3001/api/comments'
     pollInterval={2000}
   />,
-  document.getElementById('root')
+  document.getElementById('container')
 );
